@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background-color: #f8f9fa;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero img{
+    max-height: 500px;
+}
