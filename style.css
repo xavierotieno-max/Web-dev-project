@@ -109,3 +109,10 @@ footer h5{
 .card:hover img{
     transform: scale(1.05);
 }
+.bi{
+    transition: 0.3s;
+}
+
+.bi:hover{
+    transform: scale(1.15);
+}
