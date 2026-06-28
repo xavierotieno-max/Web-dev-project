@@ -116,3 +116,124 @@ footer h5{
 .bi:hover{
     transform: scale(1.15);
 }
+/* ===========================
+   DARK MODE
+=========================== */
+
+.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+/* Hero Section */
+.dark-mode .hero {
+    background-color: #1a1a1a;
+}
+
+/* Cards */
+.dark-mode .card {
+    background-color: #242424;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+/* Card Footer */
+.dark-mode .card-footer {
+    background-color: #c8a24d !important;
+}
+
+/* Sections */
+.dark-mode .bg-light {
+    background-color: #1b1b1b !important;
+}
+
+/* Accordion (FAQ) */
+.dark-mode .accordion-item {
+    background-color: #242424;
+    color: white;
+}
+
+.dark-mode .accordion-button {
+    background-color: #242424;
+    color: white;
+}
+
+.dark-mode .accordion-button:not(.collapsed) {
+    background-color: #c8a24d;
+    color: black;
+}
+
+/* Navbar */
+.dark-mode .navbar {
+    background-color: #000 !important;
+}
+
+/* Footer */
+.dark-mode footer {
+    background-color: #000;
+    color: white;
+}
+
+/* Headings and Paragraphs */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode li,
+.dark-mode label,
+.dark-mode span {
+    color: white;
+}
+
+/* Form Controls */
+.dark-mode .form-control,
+.dark-mode .form-select,
+.dark-mode textarea {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode .form-control::placeholder,
+.dark-mode textarea::placeholder {
+    color: #ccc;
+}
+
+/* Buttons */
+.dark-mode .btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.dark-mode .btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: black;
+}
+.dark-mode section {
+    background-color: #121212 !important;
+    color: white;
+}
+
+.dark-mode .container {
+    color: white;
+}
+
+.dark-mode img {
+    opacity: 0.95;
+}
+/* Bootstrap Components */
+.dark-mode .card,
+.dark-mode .card-body,
+.dark-mode .card-header,
+.dark-mode .card-footer,
+.dark-mode .list-group-item,
+.dark-mode .table,
+.dark-mode .table td,
+.dark-mode .table th {
+    background-color: #242424 !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}

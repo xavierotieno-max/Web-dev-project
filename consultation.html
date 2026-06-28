@@ -52,6 +52,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item ms-2">
+    <button id="themeToggle" class="btn btn-outline-warning">
+        <i class="bi bi-moon-fill"></i>
+    </button>
+</li>
 
             </ul>
 
@@ -87,7 +92,7 @@
 
                     <div class="card-body p-4">
 
-                        <form>
+                        <form id="consultationForm">
 
                             <div class="mb-3">
                                 <label class="form-label">Full Name</label>
@@ -165,6 +170,52 @@
     </div>
 
 </footer>
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title">
+          <i class="bi bi-check-circle-fill"></i>
+          Success
+        </h5>
+
+        <button type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <i class="bi bi-check-circle-fill text-success display-1"></i>
+
+        <h4 class="mt-3">
+            Submitted Successfully!
+        </h4>
+
+        <p>
+            Thank you for contacting LOSONGO & CO ADVOCATES.
+
+            We have received your submission and will get back to you as soon as possible.
+        </p>
+
+      </div>
+
+      <div class="modal-footer">
+
+        <button class="btn btn-warning"
+                data-bs-dismiss="modal">
+
+            Close
+
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
