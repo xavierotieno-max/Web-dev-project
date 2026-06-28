@@ -1,16 +1,16 @@
 console.log("script.js loaded");
 const themeToggle = document.getElementById("themeToggle");
 
-// Check if the button exists before using it
+
 if (themeToggle) {
 
-    // Load saved theme
+    
     if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark-mode");
         themeToggle.innerHTML = '<i class="bi bi-sun-fill"></i>';
     }
 
-    // Toggle dark mode
+    
     themeToggle.addEventListener("click", function () {
 
         document.body.classList.toggle("dark-mode");
@@ -30,9 +30,7 @@ if (themeToggle) {
     });
 
 }
-// =======================
-// CONTACT FORM
-// =======================
+
 
 const contactForm = document.getElementById("contactForm");
 
@@ -54,9 +52,6 @@ if(contactForm){
 
 }
 
-// =======================
-// CONSULTATION FORM
-// =======================
 
 const consultationForm = document.getElementById("consultationForm");
 

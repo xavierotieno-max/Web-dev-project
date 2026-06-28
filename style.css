@@ -116,38 +116,34 @@ footer h5{
 .bi:hover{
     transform: scale(1.15);
 }
-/* ===========================
-   DARK MODE
-=========================== */
 
 .dark-mode {
     background-color: #121212;
     color: #f8f9fa;
 }
 
-/* Hero Section */
 .dark-mode .hero {
     background-color: #1a1a1a;
 }
 
-/* Cards */
+
 .dark-mode .card {
     background-color: #242424;
     color: #ffffff;
     border: 1px solid #444;
 }
 
-/* Card Footer */
+
 .dark-mode .card-footer {
     background-color: #c8a24d !important;
 }
 
-/* Sections */
+
 .dark-mode .bg-light {
     background-color: #1b1b1b !important;
 }
 
-/* Accordion (FAQ) */
+
 .dark-mode .accordion-item {
     background-color: #242424;
     color: white;
@@ -163,18 +159,18 @@ footer h5{
     color: black;
 }
 
-/* Navbar */
+
 .dark-mode .navbar {
     background-color: #000 !important;
 }
 
-/* Footer */
+
 .dark-mode footer {
     background-color: #000;
     color: white;
 }
 
-/* Headings and Paragraphs */
+
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3,
@@ -188,7 +184,7 @@ footer h5{
     color: white;
 }
 
-/* Form Controls */
+
 .dark-mode .form-control,
 .dark-mode .form-select,
 .dark-mode textarea {
@@ -224,7 +220,7 @@ footer h5{
 .dark-mode img {
     opacity: 0.95;
 }
-/* Bootstrap Components */
+
 .dark-mode .card,
 .dark-mode .card-body,
 .dark-mode .card-header,
